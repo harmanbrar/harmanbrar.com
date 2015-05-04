@@ -1,0 +1,101 @@
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
+.navbar-brand
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
+	color: #e29839;
+	text-shadow: 0;	
+}
+
+.navbar-default .navbar-brand
+{
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover
+{
+	color: #e29839;
+	text-shadow: 0;
+}
+.navbar
+{
+	background: rgba(0,0,0,0.4);
+}
+
+/* Overriddes Bootstrap button for tranparency */
+.btn
+{
+
+	background: transparent;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #9B8C67;
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
+
+/*Square edge override*/
+.btn
+{
+	-webkit-border-radius: 0;
+	-moz-border-radius:    0;
+	border-radius:         0;
+}
+
+/*On hover of a button change text to black*/
+.btn:hover
+{
+	color: #000000;
+}
+.home-section
+{
+	height:auto !important;
+	min-height: 100%;
+	overflow: hidden;
+	padding-top: 300px;
+	background: url('../img/pattern.png') repeat center;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 1px 0 rgba(0,0,0,0,7);
+
+}
+
+.home-section h1
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	color: #BFBCBB;
+}
+.home-section h2
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 60px;
+	color: #BFBCBB;
+
+}
+.home-section h3
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	color: #BFBCBB;
+
+}
