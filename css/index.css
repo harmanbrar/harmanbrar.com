@@ -1,0 +1,93 @@
+body 
+{
+	overflow-x: hidden;
+	background-image: url('../img/stardust.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	margin-bottom: 300px;
+}
+	
+	h1 {
+		font-size: 45px;
+		font-weight: 200;
+	}
+	
+	h2 {
+		font-size: 20px;
+		font-weight: 400;
+	}
+	
+	h3 {
+		font-size: 16px;
+		font-weight: 300;
+	}
+	
+	.navbar {
+		font-size: 16px;
+		font-weight: 300;
+	}
+	
+	#title {
+		background-color: black;
+		width: 550px;
+		text-align: center;
+		margin: auto;
+		margin-top: 200px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 75px;
+		font-weight: 200;
+		color: white;
+		letter-spacing: 10px;
+	}
+	
+	#icons {
+		background-color: white;
+		width: 300px;
+		text-align: center;
+		margin: auto;
+		margin-top: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	#resume {
+		margin: auto;
+		margin-top: 300px;
+		width: 75%;
+	}
+	
+	.card-header {
+		background-color: black;
+		color: white;
+		text-align: center;
+	}
+	
+	.card-body {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	#skills {
+		margin-top: 20px;
+	}
+	
+	#projects {
+		margin-top: 20px;
+	}
+	
+	.btn {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		cursor: default;
+	}
+	
+	.fixed-bottom {
+		font-size: 20px;
+		font-weight: 300;
+		text-align: center;
+	}

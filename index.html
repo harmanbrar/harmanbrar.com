@@ -1,75 +1,190 @@
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
+
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Harman Brar | Develop and Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/template.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <!-- creates a button-->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <!-- Creates the 3 bars for mobile or shrunk browsing-->
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Harman Brar</a>
+    <title>Harman Brar</title>
+</head>
+
+<body>
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script type='text/javascript' src='js/index.js'></script>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+            </ul>
         </div>
-        <div class= "navbar-collapse collapse">
-          <!-- Alligns everything to the right-->
-          <ul class="nav navbar-nav navbar-right">
-            <!--Active highlights the box removing active will remove the box-->
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+    </nav>
+
+    <!-- Home view -->
+    <div data-aos="zoom-in" data-aos-duration="3000" id="title">
+        HARMANBRAR
     </div>
 
-    <section id="home" class="home-section"> 
-      <h1> Hello, World. </h1>
-      <h2> Developer & Designer </h2>
-      <h3> Winnipeg, Mb </h3>
-      <br><br>
-      <button class="btn btn-warning btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-           Follow me on GitHub 
-      </button>
-      <br><br>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+    <div data-aos="fade-up" data-aos-duration="3000" id="icons">
+        <i class="fab fa-stack-overflow fa-2x fa-fw"></i> +
+        <i class="fab fa-linkedin fa-2x fa-fw"></i> +
+        <i class="fab fa-github-square fa-2x fa-fw"></i> +
+        <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+    </div>
+    <!-- Resume -->
+    <div class="row" id="resume">
+        <div class="col-4">
+            <div data-aos="fade-down-right" data-aos-duration="1500" class="card" id="education">
+                <div class="card-header">
+                    <h1>
+                        <i class="fas fa-graduation-cap"></i> EDUCATION</h1>
+                </div>
+                <div class="card-body">
+                    <h2>B.Sc. Computer Science Major</h2>
+                    <h3>University of Manitoba | August 2018</h3>
+                    <br>
+                </div>
+            </div>
+            <div data-aos="fade-up-right" data-aos-duration="1500" class="card" id="skills">
+                <div class="card-header">
+                    <h1>
+                        <i class="far fa-list-alt"></i> SKILLS</h1>
+                </div>
+                <div class="card-body">
+                    Languages
+                    <br>
+                    <button type="button" class="btn btn-dark">C++</button>
+                    <button type="button" class="btn btn-dark">C</button>
+                    <button type="button" class="btn btn-dark">Python</button>
+                    <button type="button" class="btn btn-dark">Java</button>
+                    <button type="button" class="btn btn-dark">Swift</button>
+                    <button type="button" class="btn btn-dark">JavaScript</button>
+                    <button type="button" class="btn btn-dark">PHP</button>
+                    <button type="button" class="btn btn-dark">HTML</button>
+                    <button type="button" class="btn btn-dark">CSS</button>
+                    <button type="button" class="btn btn-dark">SQL</button>
+                    <button type="button" class="btn btn-dark">NoSQL</button>
+                    <button type="button" class="btn btn-dark">C#</button>
+                    <button type="button" class="btn btn-dark">XML</button>
+                    <button type="button" class="btn btn-dark">JSON</button>
+                    <br> OS
+                    <br>
+                    <button type="button" class="btn btn-warning">MacOS</button>
+                    <button type="button" class="btn btn-warning">Linux</button>
+                    <button type="button" class="btn btn-warning">Windows</button>
+                    <br> Databases
+                    <br>
+                    <button type="button" class="btn btn-info">Oracle</button>
+                    <button type="button" class="btn btn-info">MySQL</button>
+                    <button type="button" class="btn btn-info">MongoDB</button>
+                    <br> Web Dev
+                    <br>
+                    <button type="button" class="btn btn-danger">Grails</button>
+                    <button type="button" class="btn btn-danger">Flask</button>
+                    <button type="button" class="btn btn-danger">Django</button>
+                    <br> Game Dev
+                    <br>
+                    <button type="button" class="btn btn-primary">Unity</button>
+                    <button type="button" class="btn btn-primary">Unreal Engine 4</button>
+                    <button type="button" class="btn btn-primary">OpenGL</button>
+                    <button type="button" class="btn btn-primary">three.JS</button>
+                    <button type="button" class="btn btn-primary">Blender</button>
+                    <br> Tools
+                    <br>
+                    <button type="button" class="btn btn-secondary">Git</button>
+                    <button type="button" class="btn btn-secondary">SVN</button>
+                    <button type="button" class="btn btn-secondary">Jira</button>
+                    <button type="button" class="btn btn-secondary">InteliJ</button>
+                    <button type="button" class="btn btn-secondary">Visual Studio</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+            <div data-aos="fade-down-left" data-aos-duration="1500" class="card" id="experience">
+                <div class="card-header">
+                    <h1>
+                        <i class="fas fa-briefcase"></i> EXPERIENCE</h1>
+                </div>
+                <div class="card-body">
+                    <h2>Programmer Analyst</h2>
+                    <h3>Agriculture and Agri-Food Canada | Winnipeg, MB | May 2016 - Current7</h3>
+                    <i class="fas fa-asterisk"></i> Redesigned the UI for the team’s user-management web app
+                    <br>
+                    <i class="fas fa-asterisk"></i> Created functions to manage user permissions in certain web apps
+                    <br>
+                    <i class="fas fa-asterisk"></i> Developing an API that incorporates standard features (navigation bar, footer, notification system,
+                    and user profile) in the team’s web apps
+                    <br>
+                    <i class="fas fa-asterisk"></i> Utilizing Grails, JavaScript, HTML, and CSS in a Windows environment
+                    <br>
+                    <br>
+                    <h2>Bioinformatics Programmer</h2>
+                </div>
+            </div>
+            <div data-aos="fade-up-left" data-aos-duration="1500" class="card" id="projects">
+                <div class="card-header">
+                    <h1>
+                        <i class="far fa-lightbulb"> </i>PROJECTS</h1>
+                </div>
+                <div class="card-body">
+                    <h2>City Companion Website</h2>
+                    <i class="fas fa-asterisk"></i> Developed a website to efficiently search and access information about a city
+                    <br>
+                    <i class="fas fa-asterisk"></i> Utilized JavaScript, HTML, and CSS in a macOS environment
+                    <br>
+                    <br>
+                    <h2>Escape Room Game</h2>
+                    <i class="fas fa-asterisk"></i> Developed a 3D, first-person, point-and-click adventure game
+                    <br>
+                    <i class="fas fa-asterisk"></i> Utilized three.js, Blender, HTML, and CSS to run as a web app
+                    <br>
+                    <i class="fas fa-asterisk"></i> Utilized C# and Unity to run as a desktop app
+                    <br>
+                    <br>
+                    <h2>Coffee Order Mobile App</h2>
+                    <i class="fas fa-asterisk"></i> Developed a simple coffee ordering app for Android devices
+                    <br>
+                    <i class="fas fa-asterisk"></i> Utilized Java, XML, and Android Studio in a macOS environment
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
